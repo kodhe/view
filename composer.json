@@ -1,0 +1,21 @@
+{
+  "name": "kodhe/view",
+  "description": "Kodhe View & Template Engine (includes BladeOne)",
+  "type": "library",
+  "version": "1.1.0",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1",
+    "eftec/bladeone": "^4.19",
+    "kodhe/http": "^1.0 || ^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kodhe\\Framework\\View\\": "src/"
+    },
+    "files": [
+      "src/helpers/template.php",
+      "src/helpers/template_asset.php"
+    ]
+  }
+}
